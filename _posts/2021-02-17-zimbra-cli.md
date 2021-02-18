@@ -10,7 +10,7 @@ tags: zimbra
 ***zmlocalconfig***
 
 ---
-### List tất cả tài khoản zimbra
+**List tất cả tài khoản zimbra**
 ```bash
 #su - zimbra
 $zmprov -l gaa
