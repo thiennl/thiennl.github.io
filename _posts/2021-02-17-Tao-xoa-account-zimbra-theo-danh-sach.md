@@ -5,8 +5,7 @@ categories: system
 tags: zimbra
 author: thiennl
 ---
-
-**1. Tạo account/user theo danh sách**
+<span style="color:green">**1. Tạo account/user theo danh sách**</span>
 
 B1: Login zimbra account
 ```bash
@@ -25,6 +24,7 @@ $zmprov –f email.zmp
 
 ---
 **2. Xóa account/user theo danh sách**
+<span style="color:green">**1. Xóa account/user theo danh sách**</span>
 
 B1: Login zimbra account
 ```bash

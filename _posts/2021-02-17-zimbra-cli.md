@@ -4,8 +4,7 @@ title: "Zimbra Cli"
 categories: system
 tags: zimbra
 ---
-**Zimbra Cli**
-<span style="color:blue">*List tất cả tài khoản zimbra*</span>.
+<span style="color:green">*List tất cả tài khoản zimbra*</span>
 
 ```bash
 #su - zimbra
