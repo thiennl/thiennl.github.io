@@ -6,8 +6,7 @@ tags: zimbra
 ---
 
 **Zimbra Cli**
----
-***zmlocalconfig***
+
 
 ---
 **List tất cả tài khoản zimbra**
