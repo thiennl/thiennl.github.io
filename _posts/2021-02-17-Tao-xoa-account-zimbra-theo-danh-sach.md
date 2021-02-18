@@ -6,7 +6,7 @@ tags: zimbra
 author: thiennl
 ---
 
-1. Tạo account/user theo danh sách
+**1. Tạo account/user theo danh sách**
 B1: Login zimbra account
 ```bash
 #su – zimbra
@@ -23,7 +23,7 @@ $zmprov –f email.zmp
 ```
 
 ---
-2. Xóa account/user theo danh sách
+**2. Xóa account/user theo danh sách**
 B1: Login zimbra account
 ```bash
 #su – zimbra
