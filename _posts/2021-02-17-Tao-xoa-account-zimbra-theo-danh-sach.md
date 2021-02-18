@@ -6,7 +6,6 @@ tags: zimbra
 author: thiennl
 ---
 <span style="color:green">**1. Tạo account/user theo danh sách**</span>
-
 B1: Login zimbra account
 ```bash
 #su – zimbra
@@ -21,11 +20,8 @@ B3: Run file bulk để tạo các account
 ```bash
 $zmprov –f email.zmp
 ```
-
 ---
-**2. Xóa account/user theo danh sách**
 <span style="color:green">**1. Xóa account/user theo danh sách**</span>
-
 B1: Login zimbra account
 ```bash
 #su – zimbra
