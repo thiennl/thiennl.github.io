@@ -4,9 +4,12 @@ title: "Quản lý mailbox zimbra sử dụng cli"
 categories: system
 tags: zimbra
 ---
-<span style="color:green">*List tất cả folder*</span>  
-$zmmailbox -z -m user@example.net getAllFolders<br>
-$zmmailbox -z -m user@example.net gaf  
+<span style="color:green">*List tất cả folder*</span>
+```bash  
+$zmmailbox -z -m user@example.net getAllFolders  
+hoặc  
+$zmmailbox -z -m user@example.net gaf
+```
 ```bash
 [zimbra@mail ~]$ zmmailbox -z -m thiennl@dinguyen.com getAllFolders
         Id  View      Unread   Msg Count  Path
