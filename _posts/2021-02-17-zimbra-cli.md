@@ -17,7 +17,7 @@ $zmaccts | awk  '/@/{print $1}'
 <span style="color:green">Check size account</span>  
 ---  
 <span style="color:green">**@Check size account**</span>  
-get mailboz size = gms
+*get mailboz size = gms*  
 ```bash
 [zimbra@mail ~]$ zmmailbox -z -m  thiennl@dinguyen.com gms
 59.97 KB
