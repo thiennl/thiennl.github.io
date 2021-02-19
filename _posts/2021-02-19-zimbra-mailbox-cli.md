@@ -4,7 +4,7 @@ title: "Quản lý mailbox zimbra sử dụng cli"
 categories: system
 tags: zimbra
 ---
-<span style="color:green">*List tất cả folder*</span>
+<span style="color:green">**@List tất cả folder**</span>
 ```bash  
 $zmmailbox -z -m user@example.net getAllFolders  
 hoặc  
@@ -35,7 +35,7 @@ $zmmailbox -z -m user@example.net gaf
 59.97 KB
 ```
 ---  
-<span style="color:green">**@Hiển thị mail trong inbox**</span>
+<span style="color:green">**@Hiển thị mail trong inbox**</span>  
 *Hiển thị 4 messages mới nhất trong inbox* 
 ```bash
 [zimbra@mail ~]$ zmmailbox -z -m thiennl@dinguyen.com s -t message -l 4 "in:inbox"
@@ -47,4 +47,17 @@ num: 4, more: false
 2.  269  mess   Thien                 Test from hotmail                                   01/18/21 13:51
 3.  268  mess   Nguyen                Test                                                01/18/21 13:35
 4.  267  mess   Nguyen                Fw: Merry Christmas, Welcoming the New Year 2021    12/25/20 11:03
+```  
+*Hiển thị 3 messages mới nhất trong sent*  
+```bash
+[zimbra@mail ~]$ zmmailbox -z -m thien.nguyen@vnptit3.vn s -t message -l 5 "in:sent"
+num: 5, more: true
+
+     Id  Type   From                  Subject                                             Date
+   ----  ----   --------------------  --------------------------------------------------  --------------
+1.  340  mess   Thien                 Hello Yahoo 1                                       02/19/21 11:26
+2.  323  mess   Thien                 Testmail                                            02/03/21 08:44
+3.  321  mess   Thien                 Test 1                                              02/03/21 08:31
+4.  265  mess   xx                    Hello                                               12/23/20 17:00
+5.  263  mess   xx                    TEST MAIL                                           12/23/20 16:42
 ```  
