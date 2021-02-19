@@ -5,10 +5,12 @@ categories: system
 tags: zimbra
 ---
 <span style="color:green">*List tất cả folder*</span>
+
 $zmmailbox -z -m user@example.net getAllFolders
-$zmmailbox -z -m user@example.net gà
+$zmmailbox -z -m user@example.net gaf
+
 ```bash
-[zimbra@mail ~]$ zmmailbox -z -m thien.nguyen@vnptit3.vn getAllFolders
+[zimbra@mail ~]$ zmmailbox -z -m thiennl@dinguyen.com getAllFolders
         Id  View      Unread   Msg Count  Path
 ----------  ----  ----------  ----------  ----------
          1  unkn           0           0  /
