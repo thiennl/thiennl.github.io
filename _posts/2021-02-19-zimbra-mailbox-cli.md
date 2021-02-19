@@ -50,14 +50,12 @@ num: 4, more: false
 ```  
 *Hiển thị 3 messages mới nhất trong sent*  
 ```bash
-[zimbra@mail ~]$ zmmailbox -z -m thien.nguyen@vnptit3.vn s -t message -l 5 "in:sent"
-num: 5, more: true
+[zimbra@mail ~]$ zmmailbox -z -m thiennl@dinguyen.com s -t message -l 3 "in:sent"
+num: 3, more: true
 
      Id  Type   From                  Subject                                             Date
    ----  ----   --------------------  --------------------------------------------------  --------------
 1.  340  mess   Thien                 Hello Yahoo 1                                       02/19/21 11:26
 2.  323  mess   Thien                 Testmail                                            02/03/21 08:44
-3.  321  mess   Thien                 Test 1                                              02/03/21 08:31
-4.  265  mess   xx                    Hello                                               12/23/20 17:00
-5.  263  mess   xx                    TEST MAIL                                           12/23/20 16:42
+3.  321  mess   Thien                    TEST MAIL                                           12/23/20 16:42
 ```  
