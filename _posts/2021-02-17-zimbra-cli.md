@@ -25,7 +25,7 @@ $zmaccts | awk  '/@/{print $1}'
 <span style="color:green">**@Hiển thị mail trong inbox**</span>
 *Hiển thị 4 messages mới nhất trong inbox* 
 ```bash
-[zimbra@mail ~]$ zmmailbox -z -m thien.nguyen@vnptit3.vn s -t message -l 4 "in:inbox"
+[zimbra@mail ~]$ zmmailbox -z -m thiennl@dinguyen.com s -t message -l 4 "in:inbox"
 num: 4, more: false
 
      Id  Type   From                  Subject                                             Date
