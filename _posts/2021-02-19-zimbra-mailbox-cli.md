@@ -5,7 +5,7 @@ categories: system
 tags: zimbra
 ---
 <span style="color:green">*List tất cả folder*</span>  
-$zmmailbox -z -m user@example.net getAllFolders  
+$zmmailbox -z -m user@example.net getAllFolders<br>
 $zmmailbox -z -m user@example.net gaf  
 ```bash
 [zimbra@mail ~]$ zmmailbox -z -m thiennl@dinguyen.com getAllFolders
