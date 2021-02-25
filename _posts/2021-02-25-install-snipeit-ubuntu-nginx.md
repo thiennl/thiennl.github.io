@@ -1,17 +1,13 @@
-
 ---
 layout: post
 title: "Cài đặt Snipe-IT trên Ubuntu 20.04 Nginx"
 categories: system
 tags: linux
 author: thiennl
----
-**0. Snipe-IT là gì**
-
-Website: https://snipeitapp.com/
-
-**1. Cài đặt nginx**
-
+---  
+**0. Snipe-IT là gì**  
+Website: https://snipeitapp.com/  
+**1. Cài đặt nginx**  
 - Gỡ apache2 nếu có  
 - Cài nginx  
 ```bash
